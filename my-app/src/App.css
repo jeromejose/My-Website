@@ -11,6 +11,18 @@
   color: white;
 }
 
+.App-nav {
+  background-color: #2555b4;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#ul-nav li{
+  display:inline;
+  padding:20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
