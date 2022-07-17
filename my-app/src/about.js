@@ -7,7 +7,8 @@ function About(){
             <body>
                 I am currently a University of Auckland student studying Computer Systems Engineering who is passionate for software
                 development especially in the back end. When I have the time, I like to play MMORPGs prominently Destiny and Genshin Impact, 
-                I also enjoy creating the odd personal project like this one that culminates usefulness and demonstration of programming skills.
+                I also enjoy creating the odd personal project like this one that culminates usefulness and demonstration of programming skills. I enjoy
+                being with others especially where collaboration is involved prominently being work, multiplayer games and group projects.
             </body>
         </div>
     );

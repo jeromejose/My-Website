@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
@@ -10,24 +14,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+h1{
+  color:rgb(246, 249, 248);
+}
+body{
+  color:white;
+}
 .App-nav {
   background-color: #2555b4;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-
+.link-styles{
+  color:white;
+  text-decoration: none;
+  position:relative;
+  height:90px;
+}
+.link-styles:hover{
+  background-color: white;
+  color:black;
+  background-size:100px;
+}
 #ul-nav li{
   display:inline;
+  font-size:20px;
   padding:20px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family:'Raleway';
+  text-decoration: none;
 }

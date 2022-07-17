@@ -10,8 +10,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Jerome Jose
+        <h1>Jerome Jose</h1>
         <nav className ="App-nav">
           <Navbar />
         </nav>
@@ -21,7 +20,6 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
         </Routes>
-      </header>
     </div>
   );
 }

@@ -5,16 +5,16 @@ function Navbar(){
     return(
         <ul id="ul-nav">
             <li>
-                <Link to="/">Home</Link>
+                <Link className='link-styles' to="/">Home</Link>
             </li>
             <li>
-                <Link to="/about">About</Link>
+                <Link className='link-styles' to="/about">About</Link>
             </li>
             <li>
-                <Link to="/experience">Experience</Link>
+                <Link className='link-styles' to="/experience">Experience</Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <Link className='link-styles' to="/contact">Contact</Link>
             </li>
         </ul>
     );
